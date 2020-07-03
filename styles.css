@@ -3,3 +3,17 @@
   text-align: center;
   margin-top: 1%
 }
+
+.navbar-nav {
+  margin: auto;
+}
+
+.hometext {
+  text-decoration: none;
+  color: black;
+}
+
+.hometext:hover {
+  color: black;
+
+}
