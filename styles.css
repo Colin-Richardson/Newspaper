@@ -15,5 +15,12 @@
 
 .hometext:hover {
   color: black;
-
+}
+.headlines-l {
+  padding-left: 2%;
+  padding-bottom: 2%;
+}
+.headlines-r {
+  padding-right: 2%;
+  padding-bottom: 2%
 }
