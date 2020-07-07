@@ -24,3 +24,30 @@
   padding-right: 2%;
   padding-bottom: 2%
 }
+.card-title {
+  text-align: center;
+  font-size: 140%;
+}
+.fballstock {
+  height: 100%;
+  width: 100%;
+}
+.sptbut {
+  margin-left: 33%;
+  font-size: 150%;
+  margin-top: 2.5%;
+}
+.sptxt {
+  font-size: 150%;
+  padding-top: 2%;
+}
+.madpic {
+  width: 110%;
+  height: 100%;
+  margin-top: -5%;
+  margin-left: -5%;
+}
+.madtit {
+  padding-top: 3%;
+  
+}
