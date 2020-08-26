@@ -1,3 +1,7 @@
+:root {
+  --light-blue: rgba(8, 232, 247, 0.25);
+  --blue: #006eff;
+}
 .logo {
   font-family: 'Lobster Two', cursive;
   text-align: center;
@@ -38,4 +42,20 @@ color: black;
 .nav-link:hover {
   background-color: rgba(8, 232, 247, 0.25);
   color: black;
+}
+.fpimg {
+  padding-left: 8%;
+  padding-top: 3%;
+  height: 525px;
+  width: 780px;
+}
+.fpdeti {
+  padding-top: 20%;
+}
+.fpdesc {
+  padding-right: 15%;
+  font-size: 90%;
+}
+.fpauth {
+  color: var(--blue);
 }
