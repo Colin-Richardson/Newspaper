@@ -47,8 +47,8 @@ color: black;
 .fpimg {
   padding-left: 8%;
   padding-top: 3%;
-  height: 525px;
-  width: 780px;
+  height: 475px;
+  width: 740px;
 }
 .fpdeti {
   padding-top: 20%;
@@ -57,6 +57,68 @@ color: black;
   padding-right: 15%;
   font-size: 90%;
 }
-.fpauth {
+.blue {
   color: var(--blue);
+}
+.bl {
+  background-color: black;
+  height: 2px;
+}
+.sphead {
+  text-align: center;
+  letter-spacing: 9px;
+  background-color: var(--light-blue);
+  font-size: 350%;
+  margin-top: 18%;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-bottom: 5%;
+}
+.card-title {
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#sptit {
+    background-color: var(--light-blue);
+}
+.recart {
+  background-color: var(--light-blue);
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#premtablerow {
+padding-top: 2%;
+}
+.fptable {
+  margin-left: 1%;
+}
+.cardpad {
+  padding-left: 2%;
+}
+.cardpad2 {
+  padding-top: 2%;
+}
+.cardbord {
+  border: 2px solid black;
+}
+.spcard {
+  border: 1px solid black;
+}
+.artimgtit {
+  margin: auto;
+  color: black;
+  font-size: 200%;
+}
+.lit {
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  width: 100%;
+  background-color: rgba(8, 232, 247, 0.9);
+}
+
+.litpop {
+  overflow: hidden;
 }
