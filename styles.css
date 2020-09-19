@@ -122,3 +122,20 @@ padding-top: 2%;
 .litpop {
   overflow: hidden;
 }
+
+.tempimg{
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+.temptitle{
+  margin-bottom: 0;
+}
+.tempsmall{
+  margin: 0;
+  display: inline;
+}
+.tempcontent{
+  display: inline;
+}
+
