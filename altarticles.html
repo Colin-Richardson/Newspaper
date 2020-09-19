@@ -1,0 +1,11 @@
+
+<div>
+<img src="/static/media/{{article.thumbnail}}" class="tempimg" alt="">
+<a href="{%url 'articledetail' article.title%}"><h6 class="temptitle">{{article.title}}</h2></a>
+<small class="tempsmall">By {{article.writer}} |{{article.date_published}}</small><br>
+<p class="tempcontent">
+  {{article.description}}
+</p>
+</div>
+<br><br><br>
+      
