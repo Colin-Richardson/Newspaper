@@ -2,11 +2,13 @@
   --light-blue: rgba(8, 232, 247, 0.25);
   --blue: #006eff;
 }
+
 .logo {
   font-family: 'Lobster Two', cursive;
   text-align: center;
   margin-top: 1%
 }
+
 .logo2 {
   font-family: 'Lobster Two', cursive;
   text-align: center;
@@ -14,6 +16,7 @@
   margin-top: -1%;
   font-size: 175%;
 }
+
 .navbar-nav {
   margin: auto;
 }
@@ -27,98 +30,178 @@
 .hometext:hover {
   color: black;
 }
+
 #invis {
   border-top: 1px solid black;
   width: 27%;
   display: inline-block;
   padding-bottom: 1%;
 }
+
 .nav-des {
   border-top: 5px solid black;
   border-bottom: 5px solid black;
 }
+
 .nav-link {
-color: black;
+  color: black;
 }
+
 .nav-link:hover {
   background-color: rgba(8, 232, 247, 0.25);
   color: black;
 }
+
 .fpimg {
   padding-left: 8%;
   padding-top: 3%;
   height: 475px;
   width: 740px;
 }
+
 .fpdeti {
   padding-top: 20%;
 }
+
 .fpdesc {
   padding-right: 15%;
   font-size: 90%;
 }
+
 .blue {
   color: var(--blue);
 }
+
 .bl {
   background-color: black;
   height: 2px;
 }
+
 .sphead {
   text-align: center;
   letter-spacing: 9px;
   background-color: var(--light-blue);
   font-size: 350%;
-  margin-top: 18%;
+  margin-top: 24%;
   margin-left: 11%;
   margin-right: 11%;
   margin-bottom: 5%;
 }
+
 .card-title {
   text-align: center;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
+
 #sptit {
-    background-color: var(--light-blue);
+  background-color: var(--light-blue);
 }
+
 .recart {
   background-color: var(--light-blue);
   text-align: center;
   margin-left: 15%;
   margin-right: 15%;
+  margin-top: 5%;
 }
+
 #premtablerow {
-padding-top: 2%;
+  padding-top: 2%;
 }
+
 .fptable {
   margin-left: 1%;
 }
+
 .cardpad {
   padding-left: 2%;
 }
+
 .cardpad2 {
   padding-top: 2%;
 }
+
 .cardbord {
   border: 2px solid black;
 }
+
+.fpcg {
+  height: 25%;
+  width: 25%;
+}
+
 .spcard {
-  border: 1px solid black;
+border: 1px solid white;
+}
+.card-img {
+  padding-top: 25%;
 }
 .artimgtit {
   margin: auto;
   color: black;
   font-size: 200%;
 }
+
 .lit {
   position: absolute;
   bottom: 0%;
-  left: 0%;
-  width: 100%;
+  left: 8%;
+  width: 90%;
   background-color: rgba(8, 232, 247, 0.9);
 }
 
-.litpop {
-  overflow: hidden;
+.fpsdtit {
+  margin-top: 2%;
+  background-color: var(--light-blue);
+  font-size: 290%;
+}
+
+#poptit {
+  margin-left: 2%;
+}
+
+#invis2 {
+  border-top: 2px solid black;
+  width: 76%;
+  display: inline-block;
+  padding-bottom: 2%;
+  margin-left: 1%;
+}
+
+#invis3 {
+  border-top: 2px solid black;
+  width: 79%;
+  display: inline-block;
+  padding-bottom: 2%;
+  margin-left: 1%;
+}
+
+.fparticletitle {
+  padding-left: 2%;
+  padding-top: 1%;
+}
+
+.fpartdesc {
+  padding-left: 2%;
+  font-size: 115%;
+}
+
+.fpartbord {
+  border-bottom: 1px solid black;
+}
+
+.video {
+  height: 85%;
+  width: 97%;
+}
+#rectit {
+  margin-left: 2%;
+}
+#invis4 {
+  border-top: 2px solid black;
+  width: 40%;
+  display: inline-block;
+  padding-bottom: 2%;
+  margin-left: 1%;
 }
