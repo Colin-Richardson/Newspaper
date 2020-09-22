@@ -205,3 +205,20 @@ border: 1px solid white;
   padding-bottom: 2%;
   margin-left: 1%;
 }
+
+.tempimg{
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+.temptitle{
+  margin-bottom: 0;
+}
+.tempsmall{
+  margin: 0;
+  display: inline;
+}
+.tempcontent{
+  display: inline;
+}
+
