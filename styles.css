@@ -2,7 +2,9 @@
   --light-blue: rgba(8, 232, 247, 0.25);
   --blue: #006eff;
 }
-
+.mobile{
+  display: none;
+}
 .logo {
   font-family: 'Lobster Two', cursive;
   text-align: center;
@@ -55,8 +57,9 @@
 .fpimg {
   padding-left: 8%;
   padding-top: 3%;
-  height: 475px;
+  height: auto;
   width: 740px;
+  max-width: 100%;
 }
 
 .fpdeti {
@@ -82,7 +85,7 @@
   letter-spacing: 9px;
   background-color: var(--light-blue);
   font-size: 350%;
-  margin-top: 24%;
+  margin-top: 2%;
   margin-left: 11%;
   margin-right: 11%;
   margin-bottom: 5%;
@@ -221,4 +224,44 @@ border: 1px solid white;
 .tempcontent{
   display: inline;
 }
-
+@media only screen and (max-width: 1030px) {
+  #invis{
+    width: 10%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .nav-des{
+    border: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .mainarticle{
+    text-align: center;
+    /*
+    Makes the text hover over the image, but is a pain in the ass 
+    position: absolute;
+    top: 50%;
+    background-color: var(--light-blue);
+    */
+  }
+  .fpimg{
+    padding-left: 0;
+  }
+  .fpdeti {
+    padding-top: 0;
+  }
+  .fpdesc{
+    padding-right: 0;
+  }
+  #invis{
+    width: 5%;
+  }
+}
+@media only screen and (max-width: 530px) {
+  .logo{
+    display: none;
+  }
+  .mobile{
+    display: block;
+  }
+}
